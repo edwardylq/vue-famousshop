@@ -1,0 +1,6 @@
+
+.header{width:100%;height:80px;border-bottom: 1px solid #ccc;}
+
+.body>.nav{width:200px;position: absolute;z-index: 8;height: 100%;top:80px;left:0;border-right: 1px solid #ccc;}
+.body>.main{margin-left: 200px;min-height:560px;min-width:300px;overflow: auto;}
+
