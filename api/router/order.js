@@ -20,5 +20,12 @@ module.exports = {
                 res.send(result);
             })
         })
+
+        app.get('/aa', (req, res) =>{
+            console.log("999");
+            let aa=req.query.aa;
+            console.log(aa);
+            res.send(aa);
+        })
     }
 }

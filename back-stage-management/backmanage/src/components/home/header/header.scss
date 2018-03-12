@@ -1,0 +1,21 @@
+.h_header{
+	h1{
+		text-align: center;
+		line-height: 80px;
+		background-color: skyblue;
+		color:#fff;
+	}
+	p{
+		position: absolute;
+		right: 100px;
+		top: 35px;
+		font-size: 14px;
+		span{
+			color:#fee;
+			font-weight: bold;
+			b{
+				font-weight: normal;
+			}
+		}
+	}
+}
