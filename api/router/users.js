@@ -6,9 +6,9 @@ module.exports = {
     register(app){
         app.post('/login', (req, res) => {
             let username = req.body.username;
-            let password = req.body.pwd;
+            let password = req.body.password;
             console.log(username)
-            db.mongodb.select('user', {username, password}).then((result) => {
+            db.mongodb.select('users', {username, password}).then((result) => {
                 let token = '';
                 var user = {username};
                 if(result.length > 0){

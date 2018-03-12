@@ -24,7 +24,15 @@ app.all('*', function(req, res, next) {
 
 app.use(bp.urlencoded({extended: false}));
 
-
+io.on('connection', (client) => {
+    console.log('io connection');
+    client.on('getClientMsg', (msg) => {
+        console.log(msg)
+        io.emit('print', msg);
+    })
+    // client.on('');
+    // io.emit('')
+})
 
 module.exports = {
     start(_port){
