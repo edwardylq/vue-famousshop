@@ -4,8 +4,10 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 import Homecomponent from '../components/home/home.vue';
-import Containercomponent from '../components/home/container/container.vue';
 import Logincomponent from '../components/login/login.vue';
+import Ordercomponent from '../components/home/order/order.vue';
+import Usercomponent from '../components/home/user/user.vue';
+import Productcomponent from '../components/home/product/products.vue';
 
 const router=new VueRouter({
 	routes :[
@@ -15,9 +17,19 @@ const router=new VueRouter({
 			component:Homecomponent,
 			children:[
 				{
-					path:'container',
-					name:'container',
-					component:Containercomponent
+					path:'order',
+					name:'order',
+					component:Ordercomponent
+				},
+				{
+					path:'user',
+					name:'user',
+					component:Usercomponent
+				},
+				{
+					path:'products',
+					name:'products',
+					component:Productcomponent
 				}
 			]
 		},

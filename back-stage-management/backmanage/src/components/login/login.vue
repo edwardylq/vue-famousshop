@@ -13,5 +13,7 @@
 
 <script type="text/javascript">
 	import './login.css';
-	export default{}
-</script>
+	export default{
+		
+	}
+</script> 

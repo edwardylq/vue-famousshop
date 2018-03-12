@@ -19,5 +19,20 @@ module.exports = {
                 res.send(apiResult(result && result.length > 0, token));
             })
         })
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        app.post('/backlogin',(req,res)=>{
+            let name=req.body.username;
+            let pwd =String(req.body.password);
+            db.mongodb.select('backend',{name,pwd}).then(result=>{
+                let token = '';
+                var user = {name};
+                if(result.length > 0){
+                    token=jwt.sign(user,'secret',{
+                        'expiresIn': 1440; 
+                    })
+                }
+                res.send(apiResult(result && result.length > 0, token));
+            })
+        })
     }
 }

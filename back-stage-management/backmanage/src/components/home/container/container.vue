@@ -5,6 +5,17 @@
 </template>
 
 <script type="text/javascript">
-	
-	export default{}
+	import spanner from '../../spinner/spinner.vue';
+
+	export default{
+		data(){
+			return{
+				show:false
+			}
+		},
+		props:['config'],
+		mounted(){
+			console.log(this.config);
+		}
+	}
 </script>
