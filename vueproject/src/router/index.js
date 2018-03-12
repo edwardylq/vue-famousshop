@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import ElementUi from 'element-ui'
 
 import Login from '../components/login/Login'
 import Register from '../components/register/register'
@@ -9,6 +10,7 @@ import ListPage from '../components/listPage/listPage'
 import mj_shoppingcart from '../components/shoppingcart/shoppingcart'
 
 Vue.use(VueRouter);
+Vue.use(ElementUi);
 
 
 const router = new VueRouter({
