@@ -5,7 +5,7 @@
                 <router-link to="Login">登录</router-link>
                 <router-link to="Register">注册</router-link>
                 </div> 
-                <router-link to="" class="mj_shouye">首页</router-link>
+                <router-link to="homepage" class="mj_shouye">首页</router-link>
             </div>
             <div class="mj_menu">
                 <router-link to="">正品保证</router-link>

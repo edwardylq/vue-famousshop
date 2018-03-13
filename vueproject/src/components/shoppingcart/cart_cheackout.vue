@@ -12,7 +12,7 @@
         </div>
         <div class="form-group">
           <label for="phone">手机</label>
-          <input type="text" class="form-control" v-model="mj_phone" placeholder="请输入收货人电话号码"><span >{{tip}}</span>
+          <input type="text" class="form-control" v-model="mj_phone" placeholder="请输入收货人电话号码">
         </div>
         <div class="checkbox">
           <label>
@@ -47,7 +47,7 @@
               http.post('users',{name: this.mj_name, site: this.mj_site, phone: this.mj_phone}).then((res) => {
                 console.log(res)
               })
-            }
+            },
            getmsg(){
                this.$store.dispatch('getmsg_get',{path:'product/',msg:{houseOwner:'Kemo'}});
            },

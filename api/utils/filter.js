@@ -2,7 +2,7 @@ const apiResult = require('./apiResult')
 const jwt = require('jsonwebtoken')
 
 module.exports = function(req, res, next){
-    let token = req.headers['Authorization'];
+    let token = req.headers['authorization'];
     if(token){
         jwt.verify(token, 'secret', (error, result) => {
             if(error){
