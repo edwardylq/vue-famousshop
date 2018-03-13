@@ -28,7 +28,7 @@ module.exports = {
                 var user = {name};
                 if(result.length > 0){
                     token=jwt.sign(user,'secret',{
-                        'expiresIn': 1440; 
+                        'expiresIn': 1440
                     })
                 }
                 res.send(apiResult(result && result.length > 0, token));
