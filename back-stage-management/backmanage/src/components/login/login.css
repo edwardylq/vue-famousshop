@@ -1,0 +1,38 @@
+.libigbox{
+	width: 100%;
+	height: 100%;
+	background: url("../../img/9f8e09ec88aca73e6c1998618dc672e2.jpg");
+	position: relative;
+}
+.loginbox{
+	width: 483px;
+	height: 200px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	background: #E6E6E6;
+	border-radius: 7px;
+}
+.loginbox h2{position: absolute;left:125px;top:-100px;color: #E8FFFF;}
+.loginbox .inputbox{
+	height: 106px;
+	width: 233px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.loginbox label{
+	display: block;
+	padding-top: 20px;
+	line-height: 15px;
+}
+.loginbox label input{
+	float: right;
+	border: 1px solid black;
+}
+.loginbox .btn{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	margin-left:200px;
+}

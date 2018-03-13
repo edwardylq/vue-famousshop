@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 // --------------------轮播图--------------------
 
  let banner = document.querySelector('.lx_banner');
@@ -77,3 +78,5 @@ banner.addEventListener('click',e=>{
         show();
     }
 });
+=======
+>>>>>>> 74e8a9c1a8cf3f57119bbda4992692ecb9eced12

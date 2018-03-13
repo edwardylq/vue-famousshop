@@ -9,6 +9,7 @@
     <button @click="postmsg">post请求点我</button> -->
 
     <div class="lx_home">
+<<<<<<< HEAD
 
       <header id="lx_head">
         <div class="lx_logo">
@@ -848,6 +849,31 @@
         <i class="iconfont icon-jiantou21"></i>
       </div>
 
+=======
+      <header id="lx_head">
+        <ul>
+          <li></li>
+          <li>
+            <input type="text" />
+            <button><i></i></button>
+          </li>
+          <li>
+            <i></i>
+          </li>
+        </ul>
+
+      </header>
+
+      <main id="lx_main">
+        <img src="./img/lx_banner2.jpg" alt="" />
+        <img src="./img/lx_jianhuo.jpg" alt="" />
+        <img src="./img/lx_jxpinpai.jpg" alt="" />
+        <img src="./img/lx_zhiIN.jpg" alt="" />
+      </main>
+      <footer id="lx_footer">
+        
+      </footer>
+>>>>>>> 74e8a9c1a8cf3f57119bbda4992692ecb9eced12
     </div>
 
   </div>
@@ -859,7 +885,10 @@
 
   import './css/base.css'
   import './sass/homepage.scss'
+<<<<<<< HEAD
   // import './js/homepage.js'
+=======
+>>>>>>> 74e8a9c1a8cf3f57119bbda4992692ecb9eced12
   // import './lib/flexible.debug.js'
   // import './lib/flexible_css.debug.js'
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 // 引入字体图标
 
@@ -442,3 +443,31 @@
       }
     }
 }
+=======
+.lx_home{
+    height: 100%;
+    width: 100%;
+    // display: flex;
+    // flex-direction: column;
+}
+#lx_head{
+    width: 100%;
+    height: 44px;
+    background: #B70110;
+}
+#lx_main{
+    width: 100%;
+    flex:1;
+    overflow-x:hidden;
+    background: pink;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+#lx_footer{
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
+>>>>>>> 74e8a9c1a8cf3f57119bbda4992692ecb9eced12
