@@ -5,7 +5,7 @@ import VueTouch from 'vue-touch'
 
 import Login from '../components/login/Login'
 import Register from '../components/register/register'
-import HomePage from '../components/homePage/homePage'
+
 import Detail from '../components/detail/detail'
 import ListPage from '../components/listPage/listPage'
 import mj_shoppingcart from '../components/shoppingcart/shoppingcart'
@@ -25,11 +25,6 @@ const router = new VueRouter({
                path:'/Register',
                name:'Register',
                component:Register
-           },
-           {
-               path:'/HomePage',
-               name:'HomePage',
-               component:HomePage,
            },
            {
                path:'/Detail',
