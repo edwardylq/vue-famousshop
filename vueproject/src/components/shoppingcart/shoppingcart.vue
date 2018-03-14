@@ -1,5 +1,5 @@
 <template>
-    <div class="mj_body" @click="show">
+    <div class="mj_body">
         <div class="mj_cart_t">
             <cartt></cartt>
             <ul class="mj_cartList">

@@ -1,10 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import httpClient from '../httpClient/httpClient'
+import citytext from '../components/shoppingcart/citytext.js'
 
 Vue.use(Vuex);
 
 var store = new Vuex.Store({
+    modules:{
+        citytext
+    },
    state:{
        username:0,
        password:0,

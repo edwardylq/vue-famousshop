@@ -15,10 +15,10 @@
             </div>
             <div class="mj_b_c">
                 <router-link to="">
-                    <i class="el-icon-phone"></i><span>8008008</span>
+                    <i class="el-icon-phone"></i><br/><span>8008008</span>
                 </router-link>
                 <router-link to="" style="color:skyblue">
-                    <i class="glyphicon glyphicon-comment"></i>
+                    <i class="glyphicon glyphicon-comment"></i><br/>
                     <span>scnmall</span>
                 </router-link>
             </div>
