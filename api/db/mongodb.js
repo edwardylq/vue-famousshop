@@ -36,7 +36,31 @@ module.exports = {
             })
         })
     },
+    update:(_collection,orderno,data)=>{
+        // console.log(orderno,data);
+        return new Promise((resolve,reject)=>{
+            db.collection(_collection).update(orderno,data).then((result,_error)=>{
+                resolve(result);
+            })
+        })
+    },
     objectid: (_id) => {
         return _id ? new ObjectID(_id) : new ObjectID();
+    },
+    sortup(_collection, _condition){
+        return new Promise((resolve, reject) => {
+            db.collection(_collection).find(_condition || {}).sort({price:1}).toArray((error, result) => {
+                resolve(result);
+            })
+        })
+    },
+    qtyup(_collection, _condition){
+        return new Promise((resolve, reject) => {
+            db.collection(_collection).find(_condition || {}).sort({qty:1}).toArray((error, result) => {
+                resolve(result);
+            })
+        })
     }
+
+
 }
