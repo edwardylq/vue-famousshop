@@ -4,12 +4,14 @@ import ElementUi from 'element-ui'
 import VueTouch from 'vue-touch'
 
 import Login from '../components/login/Login'
-import Register from '../components/register/register'
-
+import reg from '../components/register/reg.vue'
+import HomePage from '../components/homepage/homepage'
 import Detail from '../components/detail/detail'
-import ListPage from '../components/listPage/listPage'
-import mj_shoppingcart from '../components/shoppingcart/shoppingcart'
-import cart_cheackout from '../components/shoppingcart/cart_cheackout.vue'
+import ListPage from '../components/listpage/listpage.vue'
+import mj_shoppingcart from '../components/mj_shoppingcart/shoppingcart.vue'
+import cart_cheackout from '../components/mj_shoppingcart/cart_cheackout.vue'
+import Listdetail from '../components/listdetail/listdetail.vue'
+
 Vue.use(VueRouter);
 Vue.use(ElementUi);
 Vue.use(VueTouch, {name: 'v-touch'})
@@ -22,9 +24,14 @@ const router = new VueRouter({
                component:Login
            },
            {
-               path:'/Register',
-               name:'Register',
-               component:Register
+               path:'/reg',
+               name:'reg',
+               component:reg
+           },
+           {
+               path:'/HomePage',
+               name:'HomePage',
+               component:HomePage,
            },
            {
                path:'/Detail',
@@ -39,13 +46,24 @@ const router = new VueRouter({
            {
               path:'/shoppingcart',
               name:'shoppingcart',
-              component:mj_shoppingcart
+              component:mj_shoppingcart,
            },
            {
-              path:'/cart_cheackout',
+              path:'/cart_cheackout/:orderno',
               name:'cart_cheackout',
               component:cart_cheackout
-           }
+           },
+           {
+              path:'/Listdetail',
+              name:'Listdetail',
+              component:Listdetail,
+           },
+            {
+              path:'/shoppingcart/:orderno',
+              name:'shoppingcart',
+              component:mj_shoppingcart
+           },
+
        ]
 })
 

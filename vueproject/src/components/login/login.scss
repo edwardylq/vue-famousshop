@@ -1,0 +1,142 @@
+// body{
+//     background-color: #F0F0F0 ;
+// }
+.lx_login{
+    width: 100%;
+    height: 100%;
+    #lx_l_head{
+        width: 100%;
+        height: 0.354267rem;
+        line-height: 0.354267rem;
+        color: #666;
+        display:flex;
+        justify-content:space-between;
+        text-align: center;
+        font-size: 0.112721rem;
+        a{
+            display: block;
+            width: 0.483092rem;
+            height: 0.354267rem;
+            background: #F6F5F3;
+            text-decoration:none;
+            color: #333;
+            &.lx_login_log{
+                color: #e98686;
+                background: #FFE5E6;
+            }
+        }
+    }
+    #lx_login_box{
+        width: 100%;
+        // height: 2.004831rem;
+        background: url("../register/img/lx_reg_bg.jpg") center center no-repeat;
+        background-sizing:center;
+        padding: 0 0.161031rem;
+        .lx_fangshi{
+            // width: 100%;
+            // height: 0.362319rem;
+            display:flex;
+            // margin-top: 0.080515rem;
+            background: #C2E0EB;
+            margin-bottom: 0.064412rem;
+            // border-radius:0.040258rem;
+            li{
+                flex:1;
+                height: 0.434783rem;
+                line-height: 0.434783rem;
+                text-align: center;
+                background: #fff;
+                font-size: 0.128824rem;
+                &.lx_login_active{
+                    color: #06c1ae;
+                    border-bottom:0.032206rem solid #06c1ae;
+                }
+                
+            }
+        }
+        #lx_login_username,#lx_login_pwd,#lx_login_btn{
+            width: 100%;
+            height: 0.378422rem;
+            line-height: 0.378422rem;
+            border-radius:0.040258rem;
+            margin-bottom: 0.040258rem;
+            padding-left:0.080515rem;
+            color: #C7CBCC;
+            background: rgba(246,245,243,.8);
+            font-size: 0.128824rem;
+        }
+        #lx_login_btn{
+            background: #F77273;
+            color:#fff;
+            margin-top: 0.096618rem;
+            margin-bottom: 0.120773rem;
+        }
+        #lx_mdl{
+            width: 0.161031rem;
+            height: 0.161031rem;
+            background: #fff;
+            border:0 none;
+            float: left;
+            margin-top: 5px;
+        }
+        label{
+            float: left;
+            margin: 0 0.040258rem;
+            font-size: 0.120773rem;
+            color: #333;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        p{
+            color:#e98686;
+            font-size: 0.112721rem;
+            font-weight: bold;
+            margin: 0.040258rem 0;
+            &.lx_login_tishi{
+                display:none;
+            }
+        }
+        span{
+            display: block;
+            font-size: 0.128824rem;
+            float: right;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+    }
+    .lx_tanchuang{
+        width: 414px;
+        height: 736px;
+        background: rgba(0,0,0,.6);
+        position: fixed;
+        top:0;
+        left:0;
+        display: none;
+        .lx_l_tishi{
+            margin:0 auto;
+            text-align: center;
+            font-size: 22px;
+            color:#fff;
+            position: absolute;
+            top:40%;
+            left:50%;
+            margin-left:-49px;
+        }
+        .lx_queren{
+            width: 0.563607rem;
+            height: 0.402576rem;
+            line-height: 0.402576rem;
+            text-align: center;
+            margin:0 auto;
+            background: rgba(254,0,0,.6);
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-top:-0.201288rem; 
+            margin-left:-0.281804rem; 
+            border-radius:0.064412rem;
+            font-size: 0.128824rem;
+        }
+    }
+}
+

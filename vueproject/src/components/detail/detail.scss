@@ -1,0 +1,246 @@
+#detail{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    font-size:0.128824rem;
+    
+    
+   #cover{
+    position: fixed; 
+    top: 0; left: 0;
+    right: 0;bottom: 0;
+    background:rgba(0,0,0,.6);
+    z-index:1000;
+    p{
+
+        display:flex;
+        flex-direction:column;
+        background: #fff;
+        height:1.610306rem;
+        width: 100%;
+        position:absolute;
+        top:50%;
+        margin-top:-0.805153rem;
+        justify-content:space-around;
+        // align-content:center;
+        span{text-align:center;}
+        .box1{
+            background:#f5f5f5;
+            flex:1;
+            line-height: 1.127214rem;
+            font-size: 0.161031rem;
+            color:#a94442;
+        }
+        .box2{
+           display:flex;
+           height:0.483092rem;
+           // line-height: 0.322061rem;
+           justify-content:space-around;
+           b{
+            flex:1;
+            color:#fff;
+            line-height: 0.483092rem;
+            background: #9d9d9d;
+            &:last-child{
+                background:#31708f;
+
+            }
+           }
+
+        }
+
+    }
+}
+    #detailheader{
+        height: 0.354267rem;
+       background: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#f1f1f1));
+        display:flex;
+        .hl{
+           width: 0.362319rem; 
+           text-align:center;
+           line-height: 0.354267rem;
+        }
+        .fen{
+            flex:1;
+            display:flex;
+            span{
+                flex:1;
+                text-align:center;
+                line-height: 0.354267rem;
+                box-sizing:border-box;
+                &.active{
+                    border-bottom:0.024155rem solid #000;
+                }
+            }
+        }
+    }
+
+    #detailbody{
+        // height: 5.177134rem;
+        width: 100%;
+        flex:1;
+        overflow:auto;
+        // display:flex;
+        flex-direction:column;
+         .lunbo{
+            height: 2.657005rem;
+        }
+        .dename{
+            padding-left:0.096618rem;
+           display:flex;
+           // height:0.644122rem;
+           flex-direction:column;
+            font-size: 0.128824rem;
+        }
+        .deprice{
+            border-top:0.016103rem solid #eee;
+            border-bottom:0.016103rem solid #eee;
+            margin-bottom:0.080515rem;
+            padding-left:0.096618rem;
+            height:0.31401rem;
+            line-height:0.31401rem;
+            display:flex;
+            span{
+                flex:1;
+                font-size: 0.112721rem;
+            }
+        }
+        .cuxiao{
+            padding-left:0.080515rem;
+            height: 0.273752rem;
+            font-size: 0.112721rem;
+            line-height:0.273752rem;
+            background: #eee;
+            b{
+                color:red;
+            }
+        }
+        .shoe_color{
+            margin-top: 0.056361rem;
+            height: 0.257649rem;
+            padding-left:0.080515rem;
+            display:flex;
+            margin-bottom: 0.056361rem;
+
+            span{
+                line-height:0.257649rem;
+            }
+            img{
+                height:0.257649rem;
+                border:0.016103rem solid #ccc;
+                &.active{
+                     border:0.016103rem solid red;
+                }
+            }
+            b{
+                margin-left: 0.161031rem;
+                line-height: 0.257649rem;
+                font-size: 0.096618rem;
+                width: 0.805153rem;
+                color:red;
+            }
+        }
+        .shoe_size{
+            padding-left:0.080515rem;
+            display:flex;
+            height: 0.644122rem;
+            b{width:0.386473rem;font-size:0.112721rem;}
+            p{
+                flex:1;
+                display:flex;
+                flex-wrap:wrap;
+                span{
+                    height: 0.233494rem;
+                    width:0.322061rem;
+                    text-align:center;
+                    border:0.016103rem solid #ccc;
+                    margin-right: 0.080515rem;
+                    &.active{
+                         border:0.016103rem solid red;
+                    }
+                }
+                i{
+                    border:0 none;
+                  font-size: 0.096618rem;
+                   // height:0.322061rem;
+                    color:red;
+                     margin-left: 0.161031rem;
+                     padding-top:0.032206rem;
+                    
+                }
+            }
+        }
+        .shoe_qty{
+            padding-left:0.080515rem;
+            display:flex;
+            b{
+                width:0.386473rem;font-size:0.112721rem;
+            }
+            span{
+                width:0.217391rem;
+                height: 0.217391rem;
+                text-align:center;
+                line-height: 0.217391rem;
+                background: #ccc;
+                border:0.008052rem solid #ccc;
+            }
+            input{
+                margin:0 0.040258rem;
+                background: #eee;
+               text-align:center;
+                width:0.2657rem;
+                height: 0.20934rem;
+            }
+        }
+        .shoe_detail{
+            overflow:hidden;
+            h4{color:orange;}
+            margin-top: 0.161031rem;
+            padding-left:0.080515rem;
+            display:flex;
+            flex-direction:column;
+            span{
+                margin-top:0.161031rem;
+            }
+        }
+        .shoe_photo{
+            display:flex;
+            flex-direction:column;
+            img{width: 100%;}
+        }
+    }
+
+
+    #detailfooter{
+        display:flex;
+        height: 0.394525rem;
+        p{
+             display:flex;
+             flex-direction:column;
+             width: 0.394525rem;
+        .iconfont{
+            font-size:0.185185rem;
+            color:red;
+            flex:1;
+        }
+        span{
+            height: 0.241546rem;
+            font-size: 0.080515rem;
+            text-align:center;
+            }
+        }
+        b{
+            flex:1;
+            line-height: 0.394525rem;
+            text-align:center;
+            background:  #de5a02;
+            font-size: 0.112721rem;
+            color:#fff;
+            &:last-child{
+                 background: #af1a1a;
+            }
+        }
+        
+    }
+ }
