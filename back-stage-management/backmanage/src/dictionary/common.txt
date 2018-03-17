@@ -1,0 +1,30 @@
+{
+	"en": {
+        "name":"Name",
+        "price":"Price",
+        "discounts":"Discounts",
+        "barand":"Barand",
+        "url":"Url",
+        "sales":"Sales",
+        "type":"Type",
+        "style":"Style",
+        "qty":"Qty",
+        "username":"Username",
+        "pwd":"Pwd",
+        "manage":"Manage"
+    },
+    "cn": {
+        "name":"商品名",
+        "price":"原价",
+        "discounts":"售价",
+        "barand":"品牌",
+        "url":"图片",
+        "sales":"销量",
+        "type":"类型",
+        "style":"男/女",
+        "qty":"数量",
+        "username":"手机号",
+        "pwd":"密码",
+        "manage":"管理"   
+    }
+}

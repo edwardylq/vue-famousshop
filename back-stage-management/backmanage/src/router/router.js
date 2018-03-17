@@ -8,6 +8,8 @@ import Logincomponent from '../components/login/login.vue';
 import Ordercomponent from '../components/home/order/order.vue';
 import Usercomponent from '../components/home/user/user.vue';
 import Productcomponent from '../components/home/product/products.vue';
+import Editcompnent from '../components/home/edit/edit.vue';
+import Addcomponent from '../components/home/add/add.vue';
 
 const router=new VueRouter({
 	routes :[
@@ -30,7 +32,17 @@ const router=new VueRouter({
 					path:'products',
 					name:'products',
 					component:Productcomponent
-				}
+				},
+				{
+					path:'edit',
+					name:'edit',
+					component:Editcompnent
+				},
+				{
+					path:'add',
+					name:'add',
+					component:Addcomponent
+				},
 			]
 		},
 		{path:'/login',name:'login',component:Logincomponent},

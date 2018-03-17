@@ -1,0 +1,41 @@
+.liedit{
+	width: 500px;
+	margin:0 auto;
+	margin-top: 50px;
+	text-align: center;
+	label{
+		display: block;
+		overflow: hidden;
+		width: 340px;
+		margin:0 auto;
+		line-height: 50px;
+		span{
+			float: left;
+			font-weight: bold;
+		}
+		input{
+			float:right;
+			margin-top: 10px;
+			height: 30px;
+			width: 250px;
+			border:1px solid #ccc;
+			border-radius: 5px;
+			outline: none;
+		}
+	}
+	p{
+		input{
+			width: 80px;
+			height: 35px;
+			border-radius: 7px;
+			border:1px solid #ccc;
+			outline: none;
+			font-weight: bold;
+			color: #0df;
+			&:hover{
+				background:#d00;
+				color: #fff;
+			}
+		}
+	}
+}

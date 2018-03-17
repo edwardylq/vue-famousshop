@@ -10,14 +10,15 @@
 		data(){
 			return{
 				config:{
-					api:'',
-					cols:[],
-					params:{}
-				}
+					api1:'getusers',
+					api2:'delusers',
+					cols:['username','pwd'],
+					params:{pageno:1,qty:12}
+				} 
 			}
 		},
 		components:{
 			Containercomponent
 		}
 	};
-</script>
+</script> 

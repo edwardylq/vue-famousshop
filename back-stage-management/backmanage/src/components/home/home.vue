@@ -1,13 +1,13 @@
 <template>
 	<div class="box">
-		<div class="header">
+		<div class="liheader">
 			<lheader></lheader>
 		</div>
-		<div class="body">
-			<div class="nav">
+		<div class="libody">
+			<div class="linav">
 				<lnav></lnav>
 			</div>
-			<div class="main">
+			<div class="limain">
 				<router-view></router-view>
 			</div>
 		</div>

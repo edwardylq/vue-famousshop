@@ -3,7 +3,7 @@
         <ul class="li_item_box" @click="getproduct">
             <li class="li_item"><router-link to="products">商品管理</router-link></li>
             <li class="li_item"><router-link to="user">用户管理</router-link></li>
-            <li class="li_item"><router-link to="order">订单管理</router-link></li>
+            <!-- <li class="li_item"><router-link to="order">订单管理</router-link></li> -->
         </ul>    
 	</div>
 </template>
